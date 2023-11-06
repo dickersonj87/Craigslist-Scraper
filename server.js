@@ -42,6 +42,7 @@ app.get('/scrape', (req, res) => {
 
             console.log(articles);
             
+            res.setHeader('Content-Type', 'application/json');
             res.json(articles); // Send the scraped data as a JSON response
         })
         .catch(err => {
