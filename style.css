@@ -1,0 +1,32 @@
+body {
+    background-color: #26698E;
+    display: inline-flex;
+    height: 740px;
+    padding: 22px 257px 257px 257px;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 17px; */
+}
+
+h1 {
+    color: #FFF;
+    font-family: Marcellus SC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+}
+
+button {
+    background-color: #D9D9D9;
+    width: 225px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Marcellus SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
